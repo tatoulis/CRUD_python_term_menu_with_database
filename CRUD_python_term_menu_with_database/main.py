@@ -6,7 +6,7 @@ import queries
 config = {
     'host' : 'localhost',
     'user' : 'root',
-    'passwd': 'T@t43564356',
+    'passwd': '******',
 }
 conn = mysql.connector.connect(**config)
 myCursor = conn.cursor()
